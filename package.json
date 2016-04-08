@@ -4,19 +4,21 @@
   "description": "Learning webpack with react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Daynewr/webpack-test.git"
   },
-  "author": "",
+  "author": "Dayne",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Daynewr/webpack-test/issues"
   },
   "homepage": "https://github.com/Daynewr/webpack-test#readme",
   "devDependencies": {
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-merge": "^0.8.4"
   }
 }
